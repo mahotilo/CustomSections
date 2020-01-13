@@ -5,7 +5,7 @@
 Developer plugin for easy prototyping and creation of custom section types. Simple section types can be built even without PHP and JS skills, using the 'universal editor' and {{value}} placeholders. 
 Current version 1.0b2 
 
-See also [Typesetter Home](http://www.typesettercms.com), [Typesetter on GitHub](https://github.com/Typesetter/Typesetter)
+See also [Typesetter Home](https://www.typesettercms.com), [Typesetter on GitHub](https://github.com/Typesetter/Typesetter)
 
 ## Requirements ##
 * Typesetter CMS 5.0+
@@ -29,7 +29,7 @@ These control types are ready to be used in 'universal editor'
 
 | control_type | control_type | control_type |
 | :---: | :---: | :---: |
-| **`checkbox`**<br/><br/> ![Screenshot](/docs/controls/checkbox.png?raw=true) | **`ck_editor`**<br/><br/> ![Screenshot](/docs/controls/ck_editor.png?raw=true)<br/>pops up a CK Editor in a modal box | **`image`**<br/><br/>![Screenshot](/docs/controls/image.png?raw=true)<br/>opens a file manager |
+| **`checkbox`**<br/><br/> ![Screenshot](/docs/controls/checkbox.png?raw=true) | **`ck_editor`**<br/><br/> ![Screenshot](/docs/controls/ck_editor.png?raw=true)<br/>pops up a CK Editor in a modal box | **`finder_select`**<br/><br/>![Screenshot](/docs/controls/image.png?raw=true)<br/>opens a file manager |
 | **`text`**<br/><br/>![Screenshot](/docs/controls/text.png?raw=true) | **`select`**<br/><br/>![Screenshot](/docs/controls/select.png?raw=true) | **`link_field`**<br/><br/>![Screenshot](/docs/controls/link_field.png?raw=true)<br/>with autocomplete for <br>internal pages and button that<br/> opens a file manager |
 | **`clockpicker`**<br/><br/> ![Screenshot](/docs/controls/clockpicker.png?raw=true) | **`colorpicker`**<br/><br/>![Screenshot](/docs/controls/colorpicker.png?raw=true) | **`datepicker`**<br/><br/>![Screenshot](/docs/controls/datepicker.png?raw=true) |
 | **`multi_image`**<br/><br/>![Screenshot](/docs/controls/multi_image.png?raw=true)<br/>opens a file manager window | **`radio_group`**<br/><br/>![Screenshot](/docs/controls/radio_group.png?raw=true) |  |
@@ -43,7 +43,7 @@ So, to come to the point, if you're not into coding at all, this one is not for 
 Building own section types normally requires in-depht knowledge of Typesetter CMS. This plugin will make things way easier, but it still hooks into the CMS at a rather low level. This implicates that Typesetter will not be able to catch and report all errors like it can do on higher levels. Especially errors in the editor components, which are 'AJAXed' in a combined form togehter with other script components required for editing, can be quite tricky to debug. When you start creating your own section types using this plugin, frequent testing is a good idea. 
 
 ## Credits
-[a2exfr](http://my-sitelab.com/), [juergen](https://www.typesettercms.com/User/789)
+a2exfr, [juergen](https://www.typesettercms.com/User/789)
 
 ## License
 GPL License, same as Typesetter CMS. For bundled thirdparty components see the respective subdirectories.
